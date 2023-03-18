@@ -70,7 +70,7 @@ export default function Chat() {
                         msg.imgURL &&
                         <Card>
                           <a href={msg.imgURL}>
-                            <Card.Img src={msg.imgURL} alt='img' style={{ width: '200px', height: '200px', objectFit: 'cover' }} />
+                            <Card.Img src={msg.imgURL} alt='img' style={{ width: '100px', height: '100px', objectFit: 'cover' }} />
                           </a>
                         </Card>
                       }
