@@ -1,0 +1,29 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../node_modules/bootstrap/scss/utilities/api.scss';
+@import '../node_modules//bootstrap/scss/utilities';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+::-webkit-scrollbar {
+    width: .3rem;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: $light;
+    border-radius: 10px;
+  }
+  
+/* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #d3d3d3;
+    border-radius: 10px
+  }
+  
+/* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: $primary;
+  }
